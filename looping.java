@@ -11,5 +11,8 @@ public class looping {
         }
         System.out.println("THE SUM OF N NUTRUAL NUMBER IS : " + sum);
 
+        for(int nn = 10;  nn > 0 ;nn--){
+            System.out.println(nn + " ");
+        }
     }
 }

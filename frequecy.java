@@ -11,7 +11,7 @@ public class frequecy {
         Scanner sc = new Scanner(System.in);
         int[] arr = {30,900,404,12,555,1001,44,99,98,01};
         int n = arr.length;
-        int[] indi = new int[1500]; //creating array for just greater than values of all so it 1500 
+        int[] indi = new int[1500]; //creating array for just greater than values of all so it 1500
         indexing(arr,indi);
         System.out.println("Enter the number of test cases : ");
         int t = sc.nextInt();
